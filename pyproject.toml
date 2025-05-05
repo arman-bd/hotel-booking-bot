@@ -1,0 +1,12 @@
+[project]
+name = "hotel-booking-bot"
+version = "0.1.0"
+description = "Command-line hotel booking assistant using OpenRouter and GPT"
+dependencies = [
+    "python-dotenv",
+    "requests",
+    "rich"
+]
+
+[tool.uv]
+python = ">=3.9"
